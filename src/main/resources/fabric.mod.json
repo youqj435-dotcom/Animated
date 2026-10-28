@@ -1,0 +1,32 @@
+{
+  "schemaVersion": 1,
+  "id": "animated",
+  "version": "${version}",
+  "name": "Animated",
+  "description": "Minimalist utility client for z3r0fang_.",
+  "authors": [
+    "z3r0fang_"
+  ],
+  "contact": {
+    "homepage": "https://github.com/youqj435-dotcom/Animated",
+    "sources": "https://github.com/youqj435-dotcom/Animated"
+  },
+  "license": "MIT",
+  "environment": "client",
+  "entrypoints": {
+    "main": [
+      "com.z3r0fang.animated.AnimatedMod"
+    ],
+    "client": [
+      "com.z3r0fang.animated.AnimatedClient"
+    ]
+  },
+  "mixins": [
+    "animated.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.16.10",
+    "minecraft": "~1.21.1",
+    "java": ">=21"
+  }
+}

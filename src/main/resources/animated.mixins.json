@@ -1,0 +1,9 @@
+{
+  "required": true,
+  "minVersion": "0.14",
+  "package": "com.z3r0fang.animated.mixin",
+  "compatibilityLevel": "JAVA_21",
+  "mixins": [
+    "LoadingScreenMixin"
+  ]
+}
